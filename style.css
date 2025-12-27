@@ -671,7 +671,6 @@ h4 {
         flex: 1;
         display: flex;
         justify-content: center;
-        margin-right: -40px;
     }
 
     .logo-img img {
@@ -728,7 +727,7 @@ h4 {
 
     .cta-container {
         order: 3;
-        margin-right: 10px;
+        margin-right:45px;
         gap: 10px;
     }
 
@@ -739,7 +738,6 @@ h4 {
     #red {
         padding: 10px 15px;
         font-size: 12px;
-        margin-right: 20px;
         margin-top: 23px;
     }
 
@@ -1084,7 +1082,7 @@ h4 {
 
   
     header {
-        padding: 8px 0;
+        padding: 5px 0;
     }
 
     .container {
@@ -1120,6 +1118,16 @@ h4 {
         font-size: 22px;
         padding: 8px;
         min-width: 40px;
+    }
+    .links {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        margin-right: 0;
+        display: none;
+    }
+    .links.active {
+        display: flex;
     }
 
     .cta-container {
