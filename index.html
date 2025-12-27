@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt'n Pepper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-img">
+                <img src=".//Assets/snp logo image" alt="logoimage">
+            </div>
+            <nav>
+                <ul class="links">
+                    <li class="h-a-p"><a href="#Home"></a>Home</li>
+                    <li class="h-a-p"><a href="#About us"></a>About Us</li>
+                    <li class="h-a-p"><a href="#Publications"></a>Publications</li>
+                </ul>
+            </nav>
+            <div class="hamburger" onclick="document.querySelector('.links').classList.toggle('active')">
+                ☰
+            </div>
+
+
+            <div class="cta-container">
+                <button class="header-button" id="black">Get a Franchise</button>
+                <button class="header-button" id="red">Order Online <i
+                        class="fa-solid fa-arrow-right font1"></i></button>
+            </div>
+        </div>
+    </header>
+    <section>
+        <img class="hero-page" src=".//Assets/snp hero page.png" alt="heropage">
+    </section>
+
+
+    <section class="brands-section">
+        <div class="text">
+            <h2>Welcome to <span class="highlight">Salt'n Pepper</span></h2>
+        </div>
+        <div class="text" id="second">
+            <h2>Restaurants! Our Brands</h2>
+        </div>
+        <div class="text">
+            <p class="sub-text">Please click our brands below for further information, reservations or to order online!
+            </p>
+        </div>
+        <div class="brands">
+            <!-- card 1 -->
+            <div class="brand-card">
+                <img src=".//Assets/snp restaurant" alt="Restaurant" />
+                <button class="btn2">Order Now</button>
+            </div>
+            <!-- card 2  -->
+            <div class="brand-card">
+                <img src=".//Assets/snp express" alt="Express" />
+                <button class="btn2">Order Now</button>
+            </div>
+            <!-- card 3  -->
+            <div class="brand-card">
+                <img src=".//Assets/snp village" alt="Village" />
+                <button class="btn2">Reserve a Table</button>
+            </div>
+            <!-- card 4  -->
+            <div class="brand-card">
+                <img src=".//Assets/snp signature" alt="Square" />
+                <button class="btn2" id="extra">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container2">
+        <div class="middle-heading">
+            <h1 class="one">Salt'n Pepper</h1>
+            <h1 class="two">Restaurant Franchises</h1>
+            <p class="sub-text , text" id="ptag2">Each of our franchises are individually managed. For further details,
+                kindly contact them directly.
+            </p>
+        </div>
+        <div class="hotel-listing">
+            <div class="hotel-card">
+                <div class="info other">
+                    <p class="city">Islamabad</p>
+                    <h2 class="name"><span class="heading">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="text2"><i class="fa-solid fa-location-dot font2"></i>Plot# 55, Shabbir Plaza, Blue
+                        Area, F-6, Islamabad</p>
+                    <p id="phone" class="text2"><i class="fa-solid fa-phone font2"></i>Ph:051-2604904-6</p>
+                    <button class="card-button">Get Directions <i class="fa-solid fa-arrow-right font1"></i></button>
+                </div>
+                <div>
+                    <img class="image" src=".//Assets/snp lslamabad" alt="">
+                </div>
+            </div>
+            <div class="hotel-card">
+                <div>
+                    <img class="image imagef" src=".//Assets/snp faisalabad" alt="">
+                </div>
+                <div class="info">
+                    <p class="city other-info">faisalabad</p>
+                    <h2 class="name other-infp"><span class="heading">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="text2 other-infa"><i class="fa-solid fa-location-dot font2"></i>4-Kohinoor City,
+                        Faisalabad</p>
+                    <p id="phone" class="text2 other-infs"><i class="fa-solid fa-phone font2"></i>Ph:041-8711404
+                    </p>
+                    <button class="card-button other-infd">Get Directions <i
+                            class="fa-solid fa-arrow-right font1"></i></button>
+                </div>
+
+            </div>
+            <div class="hotel-card">
+                <div class="info info2">
+                    <p class="city">bhawalpur</p>
+                    <h2 class="name"><span class="heading">Salt'n Pepper</span> Restaurant</h2>
+                    <p class="text2 text3"><i class="fa-solid fa-location-dot font2"></i> D.C Chowk, opposite
+                        Commissioner House, Bahawalpur</p>
+                    <p id="phone" class="text2"><i class="fa-solid fa-phone font2"></i>Ph:062-2740271-2</p>
+                    <button class="btnn">Get Directions <i class="fa-solid fa-arrow-right font1"></i></button>
+                </div>
+                <div>
+                    <img class="image" src=".//Assets/snp bhawalpur" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="middle-heading2">
+            <h2 class="head">Salt'n Pepper</h2>
+            <h2 class="express">Express Franchises</h2>
+        </div>
+        <div class="listing">
+            <div class="branches">
+                <div class="outlets">
+                    <img class="img-settings" id="margin-set1" src=".//Assets/snp sargodha" alt="outlet">
+                </div>
+                <div class="locations" id="mrg-set1">
+                    <p class="city">sargodha</p>
+                    <h2 class="heading-name"><span class="hotel-name">Salt'n Pepper</span> Express</h2>
+                    <p class="area"><i class="fa-solid fa-location-dot font2"></i>Opposite Sargodha Arts Council Babar
+                        Road</p>
+                    <p class="no"><i class="fa-solid fa-phone font2"></i>Ph:048-3725500</p>
+                    <button class="area-btn">Get Directions <i
+                            class="fa-solid fa-arrow-right font1 rotate"></i></button>
+                </div>
+            </div>
+            <div class="branches">
+                <div class="outlets">
+                    <img class="img-settings" src=".//Assets/snp jhelum" alt="outlet">
+                </div>
+                <div class="locations">
+                    <p class="city">jhelum</p>
+                    <h2 class="heading-name"><span class="hotel-name">Salt'n Pepper</span> Express</h2>
+                    <p class="area"><i class="fa-solid fa-location-dot font2"></i> Opposite Dancing Fountain Gallery 2
+                        Citi Housing Jhelum
+                    <p>
+                    <p class="no"><i class="fa-solid fa-phone font2"></i>Ph:0307-7675555</p>
+                    <button class="area-btn">Get Directions <i
+                            class="fa-solid fa-arrow-right font1 rotate"></i></button>
+                </div>
+            </div>
+            <div class="branches">
+                <div class="outlets">
+                    <img class="img-settings" id="margin-set3" src=".//Assets/snp faisal town" alt="outlet">
+                </div>
+                <div class="locations" id="mrg-set2">
+                    <p class="city">faisal town</p>
+                    <h2 class="heading-name"><span class="hotel-name">Salt'n Pepper</span> Express</h2>
+                    <p class="area"><i class="fa-solid fa-location-dot font2"></i> 34-C Abul Hassan Isfahani Rd, Faisal
+                        Town,Lahore</p>
+                    <p class="no"><i class="fa-solid fa-phone font2"></i>Ph:042-111-100-678</p>
+                    <button class="area-btn">Get Directions <i
+                            class="fa-solid fa-arrow-right font1 rotate"></i></button>
+                </div>
+            </div>
+            <div class="branches">
+                <div class="outlets">
+                    <img class="img-settings" id="margin-set4" src=".//Assets/snp  DHA" alt="outlet">
+                </div>
+                <div class="locations" id="mrg-set3">
+                    <p class="city">dha</p>
+                    <h2 class="heading-name"><span class="hotel-name">Salt'n Pepper</span> Express</h2>
+                    <p class="area"><i class="fa-solid fa-location-dot font2"></i> 93-Y Phase III, DHA,Lahore</p>
+                    <p class="no"><i class="fa-solid fa-phone font2"></i>Ph:042-111-100-678</p>
+                    <button class="area-btn">Get Directions <i
+                            class="fa-solid fa-arrow-right font1 rotate"></i></button>
+                </div>
+            </div>
+            <div class="branches">
+                <div class="outlets">
+                    <img class="img-settings" src=".//Assets/snp bahria town" alt="outlet">
+                </div>
+                <div class="locations">
+                    <p class="city">bahria town</p>
+                    <h2 class="heading-name"><span class="hotel-name">Salt'n Pepper</span> Express</h2>
+                    <p class="area"><i class="fa-solid fa-location-dot font2"></i> Arwa Heights Building 19 Nishtar
+                        Block, Sector E, Bahria Town Lahore</p>
+                    <p class="no"><i class="fa-solid fa-phone font2"></i>Ph:042-111-100-678</p>
+                    <button class="area-btn">Get Directions <i
+                            class="fa-solid fa-arrow-right font1 rotate"></i></button>
+                </div>
+            </div>
+            <div class="branches">
+                <div class="outlets">
+                    <img class="img-settings" id="margin-set6" src=".//Assets/snp gujar khan" alt="outlet">
+                </div>
+                <div class="locations" id="mrg-set4">
+                    <p class="city">gujar khan</p>
+                    <h2 class="heading-name"><span class="hotel-name">Salt'n Pepper</span> Express</h2>
+                    <p class="area"><i class="fa-solid fa-location-dot font2"></i> New Metro City Gujar Khan</p>
+                    <p class="no"><i class="fa-solid fa-phone font2"></i>Ph:0321-1114965</p>
+                    <button class="area-btn">Get Directions <i
+                            class="fa-solid fa-arrow-right font1 rotate"></i></button>
+                </div>
+            </div>
+            <div class="branches">
+                <div class="outlets">
+                    <img class="img-settings" id="margin-set7" src=".//Assets/snp lahore" alt="outlet">
+                </div>
+                <div class="locations" id="mrg-set5">
+                    <p class="city">lahore</p>
+                    <h2 class="heading-name"><span class="hotel-name">Salt'n Pepper</span> Express</h2>
+                    <p class="area"><i class="fa-solid fa-location-dot font2"></i> Shop no.5, Arcade Block, Fortress
+                        Stadium, Lahore</p>
+                    <p class="no"><i class="fa-solid fa-phone font2"></i>Ph:042-366-23-100</p>
+                    <button class="area-btn">Get Directions <i
+                            class="fa-solid fa-arrow-right font1 rotate"></i></button>
+                </div>
+            </div>
+            <div class="branches">
+                <div class="outlets">
+                    <img class="img-settings" src=".//Assets/snp gujrat" alt="outlet">
+                </div>
+                <div class="locations">
+                    <p class="city">gujrat</p>
+                    <h2 class="heading-name"><span class="hotel-name">Salt'n Pepper</span> Express</h2>
+                    <p class="area"><i class="fa-solid fa-location-dot font2"></i> Service Mor, Gujrat</p>
+                    <p class="no"><i class="fa-solid fa-phone font2"></i>Ph:0311-1124600</p>
+                    <button class="area-btn">Get Directions <i
+                            class="fa-solid fa-arrow-right font1 rotate"></i></button>
+                </div>
+            </div>
+            <div class="branches">
+                <div class="outlets">
+                    <img class="img-settings" id="margin-set9" src=".//Assets/snp sahiwal" alt="outlet">
+                </div>
+                <div class="locations" id="mrg-set6">
+                    <p class="city">sahiwal</p>
+                    <h2 class="heading-name"><span class="hotel-name">Salt'n Pepper</span> Express</h2>
+                    <p class="area"><i class="fa-solid fa-location-dot font2"></i> Opposite Main Gate Police Line,
+                        Sahiwal</p>
+                    <p class="no"><i class="fa-solid fa-phone font2"></i>Ph:040-4515485</p>
+                    <button class="area-btn">Get Directions <i
+                            class="fa-solid fa-arrow-right font1 rotate"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container4">
+        <div class="middle-heading">
+            <h1 class="one1">Salt'n Pepper</h1>
+            <h1 class="two2">Village Franchise</h1>
+        </div>
+        <div class="branch-guj">
+            <div class="gujranwala-img">
+                <img src=".//Assets/snp gujranwala" alt="">
+            </div>
+            <div class="location-guj">
+                <p class="city city-guj">gujranwala</p>
+                <h2 class="heading-name name-guj"><span class="hotel-name">Salt'n Pepper</span> Village</h2>
+                <p class="area cantt"><i class="fa-solid fa-location-dot font2"></i>Adjacent to Rida Marquees /DHA
+                    Main Gate, GT Road Gujranwala Cantt</p>
+                <p class="no new-no"><i class="fa-solid fa-phone font2"></i>Ph:055-3884500 ,055-3880400</p>
+                <button class="new-directions">Get Directions <i
+                        class="fa-solid fa-arrow-right font1 arrow-color"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="middle-heading">
+            <h1 class="one1">Salt'n Pepper</h1>
+            <h1 class="two2">Express Franchises <span class="opening">(Opening Soon)</span></h1>
+        </div>
+        <div class="all-cards">
+            <div class="mhtml">
+                <i class="fa-solid fa-location-dot access-location"></i>
+                <h6 class="city city1">Opening Soon</h6>
+                <h4><span class="card-headings">Salt'n Pepper </span>Express</h4>
+                <h4 class="wala">Burewala</h4>
+            </div>
+            <div class="mhtml">
+                <i class="fa-solid fa-location-dot access-location"></i>
+                <h6 class="city city1">Opening Soon</h6>
+                <h4><span class="card-headings">Salt'n Pepper </span>Express</h4>
+                <h4 class="wala">Blue World City</h4>
+                <h4 class="wala">Rawalpindi</h4>
+            </div>
+            <div class="mhtml">
+                <i class="fa-solid fa-location-dot access-location"></i>
+                <h6 class="city city1">Opening Soon</h6>
+                <h4><span class="card-headings">Salt'n Pepper </span>Express</h4>
+                <h4 class="wala">Al-jalil Garden</h4>
+                <h4 class="wala">Sharqpur</h4>
+            </div>
+            <div class="mhtml">
+                <i class="fa-solid fa-location-dot access-location"></i>
+                <h6 class="city city1">Opening Soon</h6>
+                <h4><span class="card-headings">Salt'n Pepper </span>Express</h4>
+                <h4 class="wala">Al-Jalil Garden</h4>
+                <h4 class="wala">Sadhoke</h4>
+            </div>
+            <div class="mhtml">
+                <i class="fa-solid fa-location-dot access-location"></i>
+                <h6 class="city city1">Opening Soon</h6>
+                <h4><span class="card-headings">Salt'n Pepper </span>Express</h4>
+                <h4 class="wala">Al-Jalil Garden</h4>
+                <h4 class="wala">Sheikhupura</h4>
+            </div>
+            <div class="mhtml">
+                <i class="fa-solid fa-location-dot access-location"></i>
+                <h6 class="city city1">Opening Soon</h6>
+                <h4><span class="card-headings">Salt'n Pepper </span>Express</h4>
+                <h4 class="wala1">Okara</h4>
+            </div>
+            <div class="mhtml">
+                <i class="fa-solid fa-location-dot access-location"></i>
+                <h6 class="city city1">Opening Soon</h6>
+                <h4><span class="card-headings">Salt'n Pepper </span>Express</h4>
+                <h4 class="wala1">Kharian</h4>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+
+        <div class="terms">
+            <div class="logo-img2">
+                <img src=".//Assets/snp logo image" alt="logoimage">
+            </div>
+            <p class="text-box">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service,
+                extraordinary
+                classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in
+                Lahore. From family occasions to business dinner and moments of the heart, this place is where
+                unforgettable memories are made.</p>
+            <p class="policy">Terms & conditions <span style="padding-left: 15px;">Privacy policy</span></p>
+        </div>
+        <div class="site-links">
+            <h4>Site Links</h4>
+            <ul>
+                <li class="footer-list">Home</li>
+                <li class="footer-list">About Us</li>
+                <li class="footer-list">Publications</li>
+                <li class="footer-list">Get a Franchise</li>
+                <li class="footer-list">Feedback</li>
+                <li class="footer-list">Contact us</li>
+            </ul>
+        </div>
+        <div class="addresses">
+            <h4>Contact Us</h4>
+            <p><strong>Head office Address</strong><br>Foodconsults (Pvt) Ltd<br>23-Usman Block, New <br> Gardentown,
+                Lahore, Pakistan</p>
+            <p><strong>Head office number</strong><br>+92 42 358 509 31<br>+92 42 358 509 30</p>
+            <p><strong>Email Address</strong><br>snpfood@brain.net.pk</p>
+            <p><strong>Free delivery number</strong><br>+92 42 111 00 678<br>+92 03 111 444 610</p>
+        </div>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="social-apps">
+                <i class="fa-brands fa-facebook fb"></i>
+                <i class="fa-brands fa-instagram insta"></i>
+                <i class="fa-brands fa-square-twitter tweet"></i>
+            </div>
+            <div class="apps">
+                <img src=".//Assets/snp appstore img" alt="appstore">
+                <img src=".//Assets/snp googleplay img" alt="googleplay">
+            </div>
+        </div>
+    </footer>
+    <div class="last-line">
+        <p class="copyright1">&copy; 2025 Snp Main</p>
+        <p class="copyright2">Powered by tossdown.com</p>
+    </div>
+
+</body>
+
+</html>
