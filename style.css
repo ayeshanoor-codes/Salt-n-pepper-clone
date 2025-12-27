@@ -1550,7 +1550,7 @@ h4 {
 
     .text-box {
         position: static;
-        width: 100%;
+        width: 80%;
         max-width: 100%;
         height: auto;
         padding: 10px 15px;
