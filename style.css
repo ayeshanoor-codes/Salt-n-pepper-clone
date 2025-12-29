@@ -699,7 +699,6 @@ h4 {
         width: 100%;
         background-color: black;
         z-index: 999;
-        display: none;
     }
 
     .links {
@@ -714,10 +713,6 @@ h4 {
         display: flex;
     }
 
-    nav:has(.links.active) {
-        display: block;
-    }
-
     .h-a-p {
         padding: 15px;
         margin: 0;
@@ -727,7 +722,6 @@ h4 {
 
     .cta-container {
         order: 3;
-        margin-right:45px;
         gap: 10px;
     }
 
@@ -1119,6 +1113,15 @@ h4 {
         padding: 8px;
         min-width: 40px;
     }
+     nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        z-index: 999;
+    }
+
     .links {
         flex-direction: column;
         margin: 0;
@@ -1126,13 +1129,20 @@ h4 {
         margin-right: 0;
         display: none;
     }
+
     .links.active {
         display: flex;
     }
 
+    .h-a-p {
+        padding: 15px;
+        margin: 0;
+        border-bottom: 1px solid #333;
+        text-align: center;
+    }
+
     .cta-container {
         order: 3;
-        margin-right: 5px;
         gap: 5px;
     }
 
@@ -1619,7 +1629,6 @@ h4 {
         padding: 0 0 0 15px;
         box-sizing: border-box;
         overflow: visible;
-        margin-left: 37px;
     }
 
     .addresses h4 {
